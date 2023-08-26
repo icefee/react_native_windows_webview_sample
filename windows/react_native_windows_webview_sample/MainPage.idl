@@ -1,0 +1,10 @@
+#include "NamespaceRedirect.h"
+
+namespace react_native_windows_webview_sample
+{
+    [default_interface]
+    runtimeclass MainPage : XAML_NAMESPACE.Controls.Page
+    {
+        MainPage();
+    }
+}
